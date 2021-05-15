@@ -39,7 +39,7 @@ export PATH=/home/[your_username]/.buildozer/android/platform/android-sdk/tools:
 
 wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
 unzip sdk-tools-linux-3859397.zip
-mv sdk-tools-linux-3859397/tools home/[your_username]/.buildozer/android/platform/android-sdk/
+mv sdk-tools-linux-3859397/tools /home/[your_username]/.buildozer/android/platform/android-sdk/
 sdkmanager "platforms;android-27" "build-tools;24.0.2"
 buildozer android clean
 sdkmanager "platforms;android-27" "build-tools;25.0.2"
