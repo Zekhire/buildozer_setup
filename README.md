@@ -35,7 +35,7 @@ pip install --upgrade Cython==0.29.19
 
 Thirdly run following commands in order to download working sdkmanager and install API target 27 and build-tools with version > 25:
 ```bash
-export PATH=/home/krzysztof/.buildozer/android/platform/android-sdk/tools:/home/krzysztof/.buildozer/android/platform/android-sdk/tools/bin:$PATH
+export PATH=/home/[your_username]/.buildozer/android/platform/android-sdk/tools:/home/[your_username]/.buildozer/android/platform/android-sdk/tools/bin:$PATH
 
 wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
 unzip sdk-tools-linux-3859397.zip
@@ -44,6 +44,7 @@ sdkmanager "platforms;android-27" "build-tools;24.0.2"
 buildozer android clean
 sdkmanager "platforms;android-27" "build-tools;25.0.2"
 ```
+where you need to replace [your_username] with your actual username!
 
 ## Test
 Run following command:
