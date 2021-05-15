@@ -1,5 +1,5 @@
 # buildozer_setup
-Repo that contains description how to make buildozer work. Works on 15.05.2021.
+Repo that contains description how to make buildozer work. Works on 15.05.2021. buildozer.spec file was enriched with libff requirement.
 
 ## Requirements
 This repo was created and tested on Python 3.6.13.
