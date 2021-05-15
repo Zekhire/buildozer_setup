@@ -1,11 +1,14 @@
 # buildozer_setup
-Repo that contains description how to make buildozer work. Works on 15.05.2021. buildozer.spec file was enriched with libff requirement.
+Repo that contains description how to make buildozer work. Works on 15.05.2021. buildozer.spec file was enriched with libff requirement. 
+
+# Caution!
+Installation commands may contain large redundance, but who cares ...
 
 ## Requirements
 This repo was created and tested on Python 3.6.13.
 
 ## Buildozer Setup
-First run following commands in order to install dependencies (it may contain large redundance, but who cares).:
+First run following commands in order to install dependencies.:
 
 ```bash
 sudo apt-get install openjdk-8-jdk -y
